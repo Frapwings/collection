@@ -1,3 +1,4 @@
+REPORTER = spec
 
 build: components index.js
 	@component build --dev
@@ -5,7 +6,10 @@ build: components index.js
 components: component.json
 	@component install --dev
 
+test:
+	@./node_modules/.bin/mocha --reporter $(REPORTER) ./test/*.js
+
 clean:
 	rm -fr build components template.js
 
-.PHONY: clean
+.PHONY: clean test

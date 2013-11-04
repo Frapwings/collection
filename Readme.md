@@ -1,12 +1,11 @@
-
-# collection
+# fendjs-collection
 
   Enumerable data model collections, with all [Enumerable](https://github.com/component/enumerable)
   methods available.
 
 ## Installation
 
-    $ component install component/collection
+    $ component install Frapwings/fendjs-collection
 
 ## API
 
@@ -24,4 +23,6 @@
 
 ## License
 
-  MIT
+[MIT license](http://www.opensource.org/licenses/mit-license.php).
+
+See the `LICENSE`.
