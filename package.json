@@ -11,8 +11,14 @@
   "bugs": {
     "url": "https://github.com/Frapwings/fendjs-collection/issues"
   },
-  "keywords": ["enumerable", "data", "model", "db"],
+  "keywords": [
+    "enumerable",
+    "data",
+    "model",
+    "db"
+  ],
   "dependencies": {
+    "enumerable-component": "~0.3.1"
   },
   "devDependencies": {
     "mocha": "*",
