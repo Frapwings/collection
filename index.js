@@ -3,12 +3,8 @@
  * Module dependencies.
  */
 
-var Enumerable;
-try {
-  Enumerable = require('enumerable');
-} catch (e) {
-  Enumerable = require('enumerable-component');
-}
+var Enumerable = (typeof window !== "undefined" && window !== null)
+  ? require('enumerable') : Enumerable = require('enumerable-component');
 
 /**
  * Expose `Collection`.

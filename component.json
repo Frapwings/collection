@@ -2,14 +2,22 @@
   "name": "fendjs-collection",
   "repo": "Frapwings/fendjs-collection",
   "description": "Enumerable data model collections for Fend.js",
-  "version": "0.0.1",
-  "keywords": ["enumerable", "data", "model", "db"],
+  "version": "0.0.2",
+  "keywords": [
+    "enumerable",
+    "data",
+    "model",
+    "db"
+  ],
   "dependencies": {
     "component/enumerable": "*"
   },
-  "development": {},
+  "development": {
+    "techjacker/expect.js": "*"
+  },
   "license": "MIT",
   "scripts": [
     "index.js"
-  ]
+  ],
+  "remotes": []
 }
