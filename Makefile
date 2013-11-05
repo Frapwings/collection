@@ -1,10 +1,10 @@
 REPORTER = spec
 
 build: components index.js
-	@component build --dev
+	@component build
 
 components: component.json
-	@component install --dev
+	@component install
 
 test:
 	@./node_modules/.bin/mocha --reporter $(REPORTER) ./test/*.js

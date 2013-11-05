@@ -1,5 +1,7 @@
 # fendjs-collection
 
+[![Build Status](https://travis-ci.org/Frapwings/fendjs-collection.png?branch=master)](https://travis-ci.org/Frapwings/fendjs-collection)
+
   Enumerable data model collections, with all [Enumerable](https://github.com/component/enumerable)
   methods available.
 
