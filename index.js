@@ -4,7 +4,7 @@
  */
 
 var Enumerable = (typeof window !== "undefined" && window !== null)
-  ? require('enumerable') : Enumerable = require('enumerable-component');
+  ? require('enumerable') : require('enumerable-component');
 
 /**
  * Expose `Collection`.
