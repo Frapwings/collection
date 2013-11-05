@@ -1,6 +1,6 @@
 {
   "name": "fendjs-collection",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Enumerable data model collections for Fend.js",
   "repository": {
     "type": "git",

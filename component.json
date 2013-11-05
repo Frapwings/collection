@@ -2,7 +2,7 @@
   "name": "fendjs-collection",
   "repo": "Frapwings/fendjs-collection",
   "description": "Enumerable data model collections for Fend.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "enumerable",
     "data",
