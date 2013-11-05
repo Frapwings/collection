@@ -4,7 +4,8 @@
  * import(s)
  */
 
-var Collection = require('..');
+var Collection = (typeof window !== "undefined" && window !== null)
+  ? require('fendjs-collection') : require('..');
 var expect = require('expect.js');
 
 
